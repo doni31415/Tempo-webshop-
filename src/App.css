@@ -1,0 +1,396 @@
+body {
+    margin: 0 auto;
+}
+header, footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(27, 26, 27);
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blackout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    z-index: 3;
+    opacity: 0.5;
+}
+
+.modal-container {
+    position: relative;
+    width: 400px;
+    z-index: 4;
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+} 
+.title-modal {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 90px auto;
+    min-height: 400px;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-text-page{
+    color: #010000;
+}
+
+.button-green {
+    margin: 5px 10px;
+    background-color: #0e0d0e; 
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reg-auth-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-green:hover {
+    background-color: #353435;
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body{
+    background: #2D2D2D;
+}
+
+.sign-up{
+    background-color: #fff;
+    max-width: 25rem;
+    margin: auto;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.icon-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.text-reg{
+    position: relative;
+    right: -40px;
+
+}
+
+.icon{
+    width: 12px;
+    position: absolute;
+    height: 15px;
+    right: 350px;
+    background: solid #5D5C5C;
+}
+
+.krestik{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.krest{
+    width: 14px;
+    height: 14px;
+}
+
+.registration{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.zareg-knopka{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.zareg-btn{
+    width: 360px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: none;
+    background: #2D2D2D;
+    font-weight: 800;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.create-line {
+    margin-top: 20px;
+    width: 100%;
+    border-top: 1px solid ;
+}
+
+.under-line{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+
+}
+
+.under-icons{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.enter-reg{
+    display: flex;
+    justify-content: center;
+}
+
+.enter-btn{
+    width: 360px;
+    height: 30px;
+    border: 1px solid #2D2D2D;;
+    border-radius: 50px ;
+    margin-top: 14px;
+    background: #fff;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.sign-in{
+    background-color: #fff;
+    max-width: 25rem;
+    margin: auto;
+    border-radius: 7px;
+    padding: 27px;
+}
+.Auth-line{
+    margin-top: 20px;
+    width: 100%;
+    border-top: 1px solid ;
+}
+.Auth-knopka{
+    display: flex;
+    justify-content: center;
+}
+
+.auth-text{
+    margin-left: 35px;
+}
+
+.Auth-btn{
+    width: 360px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: none;
+    background: #2D2D2D;
+    font-weight: 800;
+    font-size: 15px;
+    color: #FFFFFF;}
+
+
+
+
+
+.icons-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.rem-me{
+    margin-left: 98px;
+    margin-top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    
+}
+
+.rem-me input{
+    margin-right: 10px;    
+}
+.enter-auth{
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    
+}
+.enter-auth button {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;   
+    width: 360px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    flex: none;
+    border-color: #64DFDF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.error-message{
+    color: red;
+    font-size: 1rem;
+}
+
+
+.pass-rec{
+    display: grid;
+
+
+}
+
+.main-get-code{
+    background:#E032E6;
+}
+
+
+.code-icon{
+    position: absolute;
+    top: 1px ;
+
+}
+
+.pass-close{
+    position: relative;
+    top: -72px;
+    left: 350px;
+}
+
+.text-code{
+    position: relative;
+    right: -40px;
+}
+
+.input-code{
+    width: 346px;
+}
+
+.get-code{
+    width: 360px;
+    height: 30px;
+    border: 1px solid lightblue;
+    border-radius: 50px ;
+    margin-top: 14px;
+    background: #2D2D2D;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.text-email{
+    width: 346px;
+}
+
+.new-password{
+    margin-left: 22px;
+}
+
+.new-pass-btn{
+    width: 360px;
+    height: 30px;
+    border: 1px solid lightblue;
+    border-radius: 50px ;
+    margin-top: 14px;
+    background: #2D2D2D;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.new-pass-krestik{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+
+.new-pass{
+    margin-bottom: 20px;
+}
+
+
+.icon2{
+    width: 12px;
+    position: absolute;
+    height: 15px;
+    right: 350px;
+    background: solid #5D5C5C;
+}
+
+.icon-eye{
+    position: relative;
+    right: 25px;
+}
+
+
