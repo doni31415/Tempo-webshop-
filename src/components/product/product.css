@@ -1,0 +1,154 @@
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.product-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-info-title{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95px;
+}
+
+.product-info-articul{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #848181;
+}
+
+.product-info-raiting{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-info-price{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.product-info-handler{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-info-btn{
+    width: 158px;
+    height: 40px;
+    background: #D71B1B;
+    border-radius: 100px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.product-info-show-more{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #44B0FF;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.product-more{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.product-more table{
+    width: 100%;
+    border: 1px solid #9D9D9D;
+}
+
+.product-more-th td{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D2D2D;
+    width: 80%;
+    display: flex;
+    padding: 10px;
+}
+
+.product-more-th td:first-child{
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.product-more-th td:last-child{
+    border-bottom: 1px solid silver;
+}
+.product-more-th:last-child td{
+    border-bottom: none;
+}
+
+.product-more-th-title td{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2D2D2D;
+}
+
+.product-more-th{
+    width: 80%;
+    display: flex;
+}
+
+@media only screen and (max-width: 650px) {
+    .product-info-title{
+        margin-top: 50px;
+    }
+    .product-slide{
+        margin-top: 50px;
+    }
+
+    .product-preview-img{
+        position: relative;
+        top: 100px;
+
+
+    }
+    .img-big{
+        width: 250px;
+        height: 250px;
+    }
+
+    .product-info-title{
+        font-size: 30px;
+    }
+     
+    
+    
+  }

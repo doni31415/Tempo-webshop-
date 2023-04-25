@@ -23,7 +23,7 @@
 
 .header-search{
     min-width: 447px;
-    background: #FFFFFF;
+    background: #fff;
     border-radius: 100px;
     padding: 11px;
     display: flex;
@@ -41,7 +41,7 @@
 
 .sub-header{
     height: 100px;
-    background: #fff;
+    background: rgb(212, 171, 171);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,9 +98,21 @@
 @media (max-width: 660px) {
     .sub-header{
         gap: 20px;
+        display: none;
     }
     .sub-header-link{ 
         font-size: 12px;
+    }
+
+    .burgerr{
+        display: none;
+    }
+
+    .header-xs{
+        position: fixed;
+        z-index: 100;
+        top: 0px;
+        background-color: rgb(18, 16, 16);
     }
 }
 
@@ -113,3 +125,17 @@
         display: flex;
     }
 }
+
+.burger-menu {
+    display: none; /* hide the burger menu by default */
+  }
+  
+  @media (max-width: 660px) {
+    .header {
+      display: none; /* hide the header on smaller screens */
+    }
+    
+    .burger-menu {
+      display: block; /* show the burger menu on smaller screens */
+    }
+  }

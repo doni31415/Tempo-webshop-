@@ -3,7 +3,7 @@ import facebookIcon from "./../../../assets/facebook-icon.png"
 import appleIcon from "./../../../assets/apple-icon.png"
 import googleIcon from "./../../../assets/google-icon.png"
 
-import { signInWithGoogle } from '../../../firebase/firebase'
+import { signInWithGoogle } from '../../../firebase/Firebase'
 
 
 
@@ -22,9 +22,9 @@ const RegButton = () => {
         </div>
         <h4 className='under-icons'>у меня есть аккаунт</h4>
         <div className="enter-reg"><button className='enter-btn'>Войти</button></div>
-        <h1>{localStorage.getItem("name")}</h1>
+        {/* <h1>{localStorage.getItem("name")}</h1>
         <h1>{localStorage.getItem("email")}</h1>
-        <img src={localStorage.getItem('profilePic')}/>
+        <img src={localStorage.getItem('profilePic')}/> */}
     </div>
     
   )

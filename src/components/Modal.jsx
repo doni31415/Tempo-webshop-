@@ -17,7 +17,7 @@ const Modal = (props) => {
             case 'newpassword':
                 return <NewPassword closeModal={props?.modal?.dispatch} />;
             default:
-                return <Authorization />;
+                return <Authorization closeModal={props?.modal?.dispatch} />;
         }
     }
 

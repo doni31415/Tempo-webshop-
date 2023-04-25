@@ -32,7 +32,7 @@ const Authorization = (props) => {
                 icon = {privacyIcon}
                 />
           </form>
-          <AuthButtons/>
+          <AuthButtons closeModal={props.closeModal}/>
         
         
       </div>

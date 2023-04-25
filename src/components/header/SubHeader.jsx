@@ -5,7 +5,8 @@ import './head.css'
 function SubHeader() {
     const headerLinks = [
         {
-            name: 'КАТАЛОГ'
+            name: 'КАТАЛОГ',
+            link: '/catalog'
         },
         {
             name: 'ДОСТАВКА'
@@ -19,7 +20,7 @@ function SubHeader() {
     ]
     return ( 
     <nav className='sub-header'>
-        {headerLinks.map((i) => <a href="#" className='sub-header-link'> {i.name} </a>)}
+        {headerLinks.map((i) => <a href={i.link} className='sub-header-link'> {i.name} </a>)}
     </nav>
   )
 }

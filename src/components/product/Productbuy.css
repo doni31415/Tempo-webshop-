@@ -1,0 +1,143 @@
+/* <div className="text-text">
+            <h3 className='product-text'>Продукты</h3>
+            </div>     
+            <div className="products">
+                <div className="product-1">
+                    <a href='/details'><img className='guitar' src={guitar}/></a>
+                    <span className='category-text'>Струнные</span>
+                    <p className='product-name'>Электрогитара Kaysen 
+Stratocaster K-EG1 BK</p>
+                    <div className='cash-name-icon'>
+                        <span className='cash-name'>В наличии</span>
+                        <img className='cash-icon' src={CashIcon}/>
+                    </div>
+                    <h3 className='product-price'>11500 сом</h3>
+                    <butto* className='goto-busket-btn'>В корзину</butto*/
+
+* {
+    font-family: 'Oswald';
+    font-style: normal;
+}
+
+.text-text {
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.products {
+    display: flex;
+    margin-top: 99px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.line{
+    border: 1px solid #9D9D9D;
+    width: 0px;
+    height: 699px;
+    margin-left: 50px;
+    margin-right: 49px;
+}
+
+.img-products {
+    width: 301px;
+    height: 301px;
+    margin-bottom: 20px;
+}
+
+.product-1 {
+    width: 301px;
+    margin-top: 30px;
+}
+
+.product-2{
+    width: 301px;
+}
+
+.product-3{
+    width: 301px;
+}
+
+.category-text {
+    font-weight: 600;
+    font-size: 24px;
+    color: #807C7C;
+}
+
+.product-name {
+    font-weight: 600;
+    font-size: 29px;
+    margin-top: 17px;
+}
+
+.cash-name-icon{
+    display: flex;
+    margin-top: 62px;
+}
+
+.cash-name{
+    font-weight: 600;
+    font-size: 24px;
+    color: #08B61A;
+}
+
+.cash-icon{
+    color: #807C7C;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.product-price{
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.goto-busket-btn{
+    width: 301px;
+    height: 54.82px;
+    border-radius: 100px;
+    background: #D71B1B;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 320px;
+}
+
+@media only screen and (max-width: 650px) {
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .line{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    .product-1{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    .product-2{
+        display: block;
+    }
+
+    .product-3{
+        display: block;
+    }
+
+    .line{
+        display: none;
+    }
+  }

@@ -11,6 +11,8 @@ import burger from '../../assets/burger.png'
 
 
 function Header() {
+  
+
   return ( 
     <>
     <div className="header">
@@ -24,13 +26,13 @@ function Header() {
           </div>
           <nav className="header-nav">
             <img src={like} alt="" />
-            <img src={user} alt="" />
-            <img src={busket} alt="" />
+            <a href='/user'><img src={user} alt="" /></a>
+            <a href='/busket'><img src={busket} alt="" /></a>
           </nav>
        </div>
     </div>
     <div className="header-xs">
-      <img src={burger} alt="" />
+      <img className='burgerr' src={burger} alt="" />
       <img src={headIcon} alt="" />
     </div>
   </>
