@@ -1,10 +1,19 @@
 * {
     padding: 0;
     margin: 0;
-    
+
 }
-.container2{
+
+.container2 {
     background-color: white;
+}
+
+.line{
+    border: 1px solid #9D9D9D;
+    width: 0px;
+    height: 699px;
+    margin-left: 50px;
+    margin-right: 49px;
 }
 
 .bucketTitle {
@@ -27,7 +36,7 @@ button {
 }
 
 .bucketItem {
-    
+
     margin: 30px 0;
     display: flex;
     align-items: center;
@@ -106,10 +115,63 @@ button {
     border-radius: 0 20px 20px 0;
 }
 
-.busket-img{
+.busket-img {
     width: 201px;
     height: 201px;
 }
+
+.cart-info {
+    text-align: center;
+}
+ .total-item {
+    display: block;
+}
+
+.tick{
+    margin-right: 50px;
+}
+
+.clear-all{
+    margin: 5px 10px;
+    background-color: #0e0d0e; 
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.clear-button{
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bucketItem{
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    height: 500px;
+
+}
+
+.colorchik{
+    background-color: rgb(253, 250, 250);
+}
+
+.line{
+    height: 400px;
+    width: 400px;
+    transform: rotate(90deg);
+    background-color: red;
+}
+
 @media (max-width:1024px) {
     .container {
         max-width: 768px;
@@ -148,11 +210,13 @@ button {
         height: 40px;
     }
 }
-@media (max-width:768px){
+
+@media (max-width:768px) {
     .container {
         max-width: 481px;
     }
-    .bucketItem{
+
+    .bucketItem {
         flex-direction: column-reverse;
     }
 
@@ -191,41 +255,54 @@ button {
     }
 }
 
-@media (max-width:480px){
-    .container{
-        max-width: 320px ;
+@media (max-width:480px) {
+    .container {
+        max-width: 320px;
     }
+
+    .total-price{
+        margin-top: 100px;
+    }
+
     .catalogItem {
         margin: 30px 30px;
         width: 200px;
         background-size: cover;
         height: 200px;
     }
+
     .productName {
         font-size: 20px;
     }
+
     .aboutProduct {
         margin: 20px 0;
         width: 250px;
     }
+
     .productPrice {
         font-size: 20px;
         line-height: normal;
     }
+
     .decrease {
         width: 20px;
         height: 30px;
     }
+
     .increase {
         width: 20px;
         height: 30px;
     }
-    .productPrice:nth-child(1){
+
+    .productPrice:nth-child(1) {
         display: none;
     }
+
     .productCounter {
         height: 30px;
     }
+
     .count {
         height: 26.4px;
         width: 40px;

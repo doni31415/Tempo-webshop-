@@ -1,69 +1,46 @@
-.container2 {   
+.container2 {
     max-width: 1100px;
     margin: 0 auto;
     padding: 15px;
-    
+
 }
 
 .catalogContainer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
 
 }
 
-.catalogItem{
+.catalogItem {
     margin: 100px 100px 0;
     margin-top: 200px;
     width: 301px;
     height: 301px;
 }
-.catalogItem:nth-child(1) {
-    background-image: url("../../assets/1.png");
-}
-.catalfogItem:nth-child(2) {
-
-    background-image: url("../fz../assets/2.png");
-}
-.catalogItem:nth-child(3) {
-
-    background-image: url("../../assets/3.png");
-}
-.catalogItem:nth-child(4) {
-    background-image: url("../../assets/4.png");
-}
-.catalogItem:nth-child(4) {
-    background-image: url("../../assets/4.png");
-}
-.catalogItem:nth-child(5) {
-    background-image: url("../../assets/5.png");
-}
-.catalogItem:nth-child(6) {
-    background-image: url("../../assets/6.png");
-}
-.catalogItem:nth-child(7) {
-    background-image: url("../../assets/7.png");
-}
-.catalogItem:nth-child(8) {
-    background-image: url("../../assets/8.png");
-}
 
 .itemBlur {
     position: relative;
     z-index: 10;
-    top: 230px;
+    top: -125px;
     width: 301px;
     height: 120px;
     background: rgba(36, 35, 35, 0.5);
     backdrop-filter: blur(15px);
     display: flex;
     align-items: center;
-
-
-
 }
 
-.itemblu{
+.catalogItemImg {
+    width: 100%;
+    height: 100%;
+}
+
+.itemblu {
     margin-bottom: 100px;
 }
 
@@ -72,48 +49,53 @@
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
 }
+
 @media (max-width:1024px) {
-    .container {
+    .container2 {
         max-width: 768px;
     }
+
     .catalogItem {
-        margin: 150px 50px 50px ;
+        margin: 150px 50px 50px;
         width: 250px;
         background-size: cover;
         height: 250px;
     }
 
     .itemBlur {
-        top: 181px;
+        top: -74px;
         width: 250px;
         height: 70px;
     }
 
     .itemTitle {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
-@media (max-width:480px){
-    .container{
-        max-width: 320px ;
+
+@media (max-width:480px) {
+    .container2 {
+        max-width: 320px;
     }
+
     .catalogItem {
         margin: 100px 30px;
         width: 200px;
-    
+
         background-size: cover;
         height: 200px;
     }
+
     .itemBlur {
-        top: 150px;
+        top: -54px;
         width: 200px;
         height: 50px;
     }
-    .itemTitle {
-        font-size: 25px;
-    }
-    
-}
 
+    .itemTitle {
+        font-size: 20px;
+    }
+
+}
